@@ -1,0 +1,20 @@
+ul.menu {
+  list-style: none;
+}
+
+ul.menu li {
+  display: inline;
+  padding: 5px;
+}
+
+ul.menu > li:hover {
+  background-color: var(--light-grey);
+  cursor: pointer;
+}
+
+#main-logo {
+  float: left;
+  margin: 0 5px 0 5px;
+  padding: 5px;
+  background-color: var(--info-blue);
+}

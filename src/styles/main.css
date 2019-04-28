@@ -1,0 +1,27 @@
+@import './header.css';
+
+:root {
+  /* colors */
+  --main-bg-color: #ffffff;
+  --line-gray-color: #dadce0;
+  --light-grey: #eeeeee;
+
+  --blue-info: #1967d2;
+  --light-blue: #e8f0fe;
+
+}
+
+header {
+  height: 60px;
+  background-color: var(--main-bg-color);
+  border-bottom: 1px solid var(--line-gray-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+  color: rgba(0, 0, 0, 0.7);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
