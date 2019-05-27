@@ -25,3 +25,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+footer {
+  height: 40px;
+  background-color: var(--main-bg-color);
+  border-top: 1px solid var(--line-gray-color);
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0 auto;
+}
+
+#main-wrapper {
+  min-height: 85vh;
+  display: grid;
+  grid-template-columns: 1fr 70% 1fr;
+}
+
+#left-sidebar {
+  grid-column: 1;
+  border-right: 1px solid var(--line-gray-color);
+}
+
+#right-sidebar {
+  grid-column: 3;
+  border-left: 1px solid var(--line-gray-color);
+}
+
+#canvas {
+  grid-column: 2;
+}

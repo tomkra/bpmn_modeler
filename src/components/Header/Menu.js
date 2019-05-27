@@ -1,12 +1,14 @@
 import React from 'react';
 
+import MenuGroup from './MenuGroup';
+
 const Menu = () => {
   return(
     <ul class="menu">
-      <li>File</li>
-      <li>Edit</li>
-      <li>View</li>
-      <li>Help</li>
+      <MenuGroup name="File" />
+      <MenuGroup name="Edit" />
+      <MenuGroup name="View" />
+      <MenuGroup name="Help" />
     </ul>
   );
 }
