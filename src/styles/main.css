@@ -39,7 +39,9 @@ footer {
 #main-wrapper {
   min-height: 85vh;
   display: grid;
-  grid-template-columns: 1fr 70% 1fr;
+  background: url('http://testbed.nicon.nl/img/_FBs3b.svg') repeat;
+  background-size: 10px 10px;
+  /* grid-template-columns: 1fr 70% 1fr; */
 }
 
 #left-sidebar {
@@ -52,8 +54,6 @@ footer {
   border-left: 1px solid var(--line-gray-color);
 }
 
-#canvas {
-  grid-column: 2;
-  background: url('http://testbed.nicon.nl/img/_FBs3b.svg') repeat;
-  background-size: 10px 10px;
+.bjs-powered-by{
+  visibility: hidden !important;
 }

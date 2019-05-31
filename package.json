@@ -4,7 +4,11 @@
   "private": true,
   "dependencies": {
     "bpmn-js": "^3.4.1",
+    "bpmn-js-properties-panel": "^0.30.0",
+    "camunda-bpmn-moddle": "^3.2.0",
+    "jquery": "^3.4.1",
     "react": "^16.8.6",
+    "react-bpmn": "^0.1.1",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8"
   },
