@@ -54,4 +54,6 @@ footer {
 
 #canvas {
   grid-column: 2;
+  background: url('http://testbed.nicon.nl/img/_FBs3b.svg') repeat;
+  background-size: 10px 10px;
 }

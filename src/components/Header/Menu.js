@@ -1,9 +1,9 @@
-import React from 'react';
-
-import MenuGroup from './MenuGroup';
+import React from "react";
+import MenuGroup from "./MenuGroup";
 
 const Menu = () => {
-  return(
+  
+  return (
     <ul class="menu">
       <MenuGroup name="File" />
       <MenuGroup name="Edit" />
@@ -11,6 +11,6 @@ const Menu = () => {
       <MenuGroup name="Help" />
     </ul>
   );
-}
+};
 
 export default Menu;
