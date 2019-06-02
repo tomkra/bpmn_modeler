@@ -6,7 +6,7 @@ const MenuGroup = (props) => {
 
   return(
     <React.Fragment>
-      <li click={() => setShow(!show)}>{props.name}</li>
+      <li onClick={() => setShow(!show)}>{props.name}</li>
     </React.Fragment>
   );
 }

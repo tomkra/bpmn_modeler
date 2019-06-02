@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import '../../styles/header.css';
 var ReactMenuAim = require('../../index');

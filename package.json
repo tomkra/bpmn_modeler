@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajax": "0.0.4",
     "bpmn-js": "^3.4.1",
     "bpmn-js-properties-panel": "^0.30.0",
     "camunda-bpmn-moddle": "^3.2.0",
