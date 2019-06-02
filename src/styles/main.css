@@ -12,9 +12,9 @@
 }
 
 header {
-  height: 60px;
-  background-color: var(--main-bg-color);
-  border-bottom: 1px solid var(--line-gray-color);
+  height: 50px;
+  background-color: #333;
+  border-bottom: 1px solid #333;
 }
 
 body {

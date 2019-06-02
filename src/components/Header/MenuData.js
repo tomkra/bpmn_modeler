@@ -1,4 +1,5 @@
-var MenuData = [{
+var MenuData = [
+    {
     name: 'File',
     subMenu: ['New File', 'Open', 'Open Recent', 'ReOpen with Encoding', 'New View into File', 'Save', 'Save with Encoding', 'Sava As', 'Save All']
   }, {

@@ -55,10 +55,27 @@ class Menu extends React.Component {
   render() {
     return (
       <ul className="menu">
-        <MenuGroup name="File" />
-        <MenuGroup name="Save" onClick={this.exportDiagram} />
+        <li class="dropdown">
+          <a href="javascript:void(0)" className="dropbtn">
+            File
+          </a>
+          <div className="dropdown-content">
+            <a href="aa">Save</a>
+            <a href="bb">Import</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" className="dropbtn">
+            Edit
+          </a>
+          <div className="dropdown-content">
+            <a href="aa">Undo</a>
+            <a href="bb">Redo</a>
+          </div>
+        </li>
+        {/* <MenuGroup name="Save" onClick={this.exportDiagram} />
         <MenuGroup name="Import" onClick={this.importDiagram} />
-        <MenuGroup name="Edit" />
+        <MenuGroup name="Edit" /> */}
         <MenuGroup name="View" />
         <MenuGroup name="Help" />
       </ul>
